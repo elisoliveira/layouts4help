@@ -1,0 +1,54 @@
+body, button, input, select, textarea{
+    font-family: 'Quicksand', BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.bd-main {
+    background-image: url(../img/2395332.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body > section > div > div> h1{
+    font-family: 'Concert One';
+    font-size: 2.5em;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.mg-top-div {
+    margin-top: 10em;
+}
+
+body > section > div > div > div.control > input,
+body>section>div>div>div.dropdown.is-hoverable>div.dropdown-trigger>button,
+body > section > div > div > div.search-btn > button {
+    border-color: none !important;
+    border-width: 0 !important;
+    border-radius: 0;
+    height: 3.5em;
+    
+}
+
+body > section > div > div > div.control > input{
+    width: 30em;
+}
+
+body>section>div>div>div.dropdown.is-hoverable>div.dropdown-trigger>button {
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    border-right: 1.5px solid #dddddd !important;
+    width: 10em;
+}
+
+body > section > div > div > div.search-btn > button{
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    background-color: #A3CB38;
+    width: 4em;
+}
+
+body > section > div > div > div.search-btn > button > span > svg{
+    width: 0.7em !important;
+    color: white;
+}
